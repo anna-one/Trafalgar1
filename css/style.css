@@ -1,0 +1,119 @@
+html{
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Mulish, sans-serif;
+}
+
+/*CONTEINER XL FOR HEADER, HERO, FOOTER*/
+
+.conteinerXl{
+    width: 1220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: auto auto;
+}
+/*CONTEINER XL FOR HEADER, HERO, FOOTER*/
+
+
+/*Header Start*/
+
+header{
+    padding: 56px 0;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #233348;
+
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+}
+
+.logo::before{
+    content: 'T';
+    width: 41px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-weight: 700;
+    font-size: 2.6rem;
+    line-height: 1.25;
+
+    background-color: #458FF6;
+    border-radius: 50%;
+}
+
+.nav{
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #1F1534;
+    opacity: 0.5;
+
+    display: flex;
+    gap: 40px;
+}
+
+.nav li:hover{
+    font-weight: 700;
+    opacity: 1;
+}
+/*Header End*/
+
+
+/*Hero Start*/
+
+    .hero{
+        padding: 16px auto 188px;
+        background-image: url("../backround-img/element-rectangle.svg");
+        background-position: top 30px left -45px;
+        background-repeat: no-repeat;
+    }
+
+    .heroContent{
+        width: 445px;
+
+    }
+
+    h1{
+        font-weight: 700;
+        font-size: 4.8rem;
+        line-height: 1.17;
+        color: #000;
+
+        margin-bottom: 25px;
+    }
+
+    .heroText{
+        font-weight: 300;
+        font-size: 2.1rem;
+        line-height: 1.52;
+        color: #7D7987;
+        margin-bottom: 45px;
+    }
+
+/*Hero End*/
+
+/*BUTTON FILLLLL*/
+
+.buttonFill{
+    width: 200px;
+    height: 56px;
+    background-color: #458FF6;
+    color: white;
+    font-weight: 700;
+    font-size: 1.8rem;
+
+    border-radius: 55px;
+}
+/*BUTTON FILLLLL*/

@@ -67,6 +67,28 @@ body {
 
 /*BUTTON WITHOUT FILLLLL*/
 
+/*BUTTON DOWNLOAD*/
+
+.buttonDownload {
+  background: none;
+  border: 1.4px solid #458ff6;
+  border-radius: 55px;
+  color: #458ff6;
+  font-size: 1.8rem;
+  font-weight: 700;
+
+  width: 200px;
+  height: 56px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 0 auto;
+}
+
+/*BUTTON DOWNLOAD*/
+
 /*Header Start*/
 
 header {
@@ -333,7 +355,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 229px;
+
   gap: 137px;
 }
 
@@ -350,7 +372,6 @@ h1 {
   height: 477px;
 
   display: flex;
-  flex-direction: column;
 }
 
 .h2Section4 {
@@ -380,5 +401,14 @@ h1 {
   margin-bottom: 37px;
 }
 
+.buttonDownload::after{
+  content: url(../vector/DownlooadArrow.svg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+
+  margin: 0 auto;
+
+}
 
 /*SECTION 4 END*/

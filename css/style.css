@@ -79,12 +79,6 @@ body {
 
   width: 200px;
   height: 56px;
-
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-
-  margin: 0 auto;
 }
 
 /*BUTTON DOWNLOAD*/
@@ -142,6 +136,7 @@ header {
 /*Hero Start*/
 
 .hero {
+ 
   padding-top: 16px;
   padding-bottom: 188px;
   background-image: url("../backround-img/element-rectangle.svg");
@@ -357,6 +352,8 @@ h1 {
   justify-content: space-between;
 
   gap: 137px;
+
+  padding-bottom: 266px;
 }
 
 .secttion4Content {
@@ -403,12 +400,105 @@ h1 {
 
 .buttonDownload::after{
   content: url(../vector/DownlooadArrow.svg);
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
-
-  margin: 0 auto;
-
+  margin-left: 15px;
 }
 
 /*SECTION 4 END*/
+
+
+/*SECTION REVIEW START*/
+.section5{
+  background-image: url(../backround-img/element-rectangle.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 50px left 180px;
+}
+.Review{
+   width: 1120px;
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%) ;
+ 
+  border-radius: 24px;
+
+  margin: 0 auto;
+  padding-bottom: 80px; 
+}
+
+.sectionReview{
+ background-image: url(../backround-img/vectorSectionReview-right.svg);
+  background-repeat: no-repeat;
+  background-position:top -20px right -50px;
+  padding-top: 64px;
+}
+
+.imgNameReviewBlock{
+  display: flex;
+  align-items: center;
+  gap: 29px;
+}
+
+.sectionReviewContent{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-left: 118px;
+  padding-right: 118px;
+
+  margin-top: 66px; 
+
+
+}
+
+.nameReview{
+  min-width: 184px;
+}
+
+blockquote{
+width: 420px;
+
+font-weight: 400;
+font-size: 1.9rem;
+line-height: 1.57;
+color: #fff;
+
+}
+
+blockquote::after{
+  content: "”";
+  color: #fff;
+}
+
+blockquote::before{
+  content: "“";
+  color: #fff;
+}
+
+.imgReview{
+  width: 141px;
+  height: 141px;
+  border-radius: 100px;
+  border: 4px solid #fff;
+
+ 
+}
+
+.h2Review{
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 1.33;
+  color: #fff;
+}
+
+.h2Review::after{
+  content: "";
+  display: block;
+ 
+  width: 56px;
+  height: 2px;
+  border-radius: 6px;
+  background-color: #fff;
+
+  margin: 25px auto 0;
+}
+
+/*SECTION REVIEW END*/
